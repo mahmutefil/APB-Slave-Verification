@@ -1,0 +1,40 @@
+`include "environment.sv"
+
+program test(intf i_intf);
+  
+  environment env;
+  
+  initial begin
+    env = new(i_intf);
+    env.run;
+  end
+  
+  
+  /*
+  covergroup cg_apb with function sample(transaction trans);
+    coverpoint trans.addr {
+      bins a[16] = {[0:$]};
+    }
+	coverpoint trans.wdata {
+      bins b[16] = {[0:$]};
+    }
+	cross_paddrXpwdata: cross trans.addr, trans.wdata;
+  endgroup
+  
+
+	cg_apb cg_apb_ins;
+	transaction trans;
+
+
+	initial begin
+		cg_apb_ins = new();
+		trans      = new();
+		//@(posedge env.clk);
+		forever begin @(posedge clk);
+		cg_apb_ins.sample(trans);
+		$display("Coverage of apb=%0.2f %%", cg_apb_ins.get_coverage());
+		end
+	end
+*/
+    
+endprogram

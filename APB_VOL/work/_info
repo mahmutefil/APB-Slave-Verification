@@ -1,0 +1,187 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/mahmu/OneDrive/Belgeler/QUESTA/APB_VOL
+T_opt
+!s11d tbench_top_sv_unit C:/Users/mahmu/OneDrive/Belgeler/QUESTA/APB_VOL/work 1 intf 1 C:/Users/mahmu/OneDrive/Belgeler/QUESTA/APB_VOL/work 
+!s110 1646653123
+V`U6Sm?aeL0b8QFB@k[5nX1
+04 10 4 work tbench_top fast 0
+=1-b025aa336811-6225eec3-2cc-2734
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+Eapb_slave
+Z3 w1645705732
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z9 8APB_Slavee.vhd
+Z10 FAPB_Slavee.vhd
+l0
+L6 1
+Vd]Fn0ccii^UQ[c0jom5322
+!s100 GV?nFGNZ?dneSHl390Rhf0
+Z11 OL;C;2021.1;73
+32
+Z12 !s110 1646653114
+!i10b 1
+Z13 !s108 1646653114.000000
+Z14 !s90 -reportprogress|300|APB_Slavee.vhd|
+Z15 !s107 APB_Slavee.vhd|
+!i113 0
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R4
+R5
+R6
+R7
+R8
+DEx4 work 9 apb_slave 0 22 d]Fn0ccii^UQ[c0jom5322
+!i122 0
+l31
+L23 59
+VLf_ojbnkkCn=i7ZU?0?;]3
+!s100 >89Th12?3fgIPaU8c[;9]1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+Yintf
+Z17 !s105 tbench_top_sv_unit
+Z18 DXx4 work 18 tbench_top_sv_unit 0 22 UogU8HdaQ3mUEA?MP;I^<2
+Z19 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R12
+!i10b 1
+!s100 IWQ@F_`[3BGOFkYbTkMNn3
+IeQ66Bf6hL`hDUdYoLkaF21
+S1
+R1
+w1645777576
+8interface.sv
+Z20 Finterface.sv
+!i122 1
+L0 1 0
+Z21 VDg1SIo80bB@j0V0VzS_@n1
+Z22 OL;L;2021.1;73
+r1
+!s85 0
+31
+R13
+Z23 !s107 scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|environment.sv|test.sv|interface.sv|./tbench_top.sv|
+Z24 !s90 -reportprogress|300|./tbench_top.sv|
+!i113 0
+Z25 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtbench_top
+R19
+R18
+R12
+R21
+r1
+!s85 0
+!i10b 1
+!s100 AN[K_Gk[`^lA7R>JdHlfD3
+IDQozC]a1>`z7YN`1]kU2F1
+R17
+S1
+R1
+w1646652969
+Z26 8./tbench_top.sv
+Z27 F./tbench_top.sv
+!i122 1
+L0 4 41
+R22
+31
+R13
+R23
+R24
+!i113 0
+R25
+R2
+Xtbench_top_sv_unit
+!s115 intf
+R19
+R12
+VUogU8HdaQ3mUEA?MP;I^<2
+r1
+!s85 0
+!i10b 1
+!s100 eB2D3PaG@3j6G;3?=HD1M2
+IUogU8HdaQ3mUEA?MP;I^<2
+!i103 1
+S1
+R1
+w1646653094
+R26
+R27
+R20
+Z28 Ftest.sv
+Fenvironment.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Fmonitor.sv
+Fscoreboard.sv
+!i122 1
+Z29 L0 3 0
+R22
+31
+R13
+R23
+R24
+!i113 0
+R25
+R2
+4test
+R19
+R18
+R12
+R21
+r1
+!s85 0
+!i10b 1
+!s100 ^H8iaNkOB?imOT0Eh2b211
+IeHYfT3_SEzN]Xz;`F?o5C3
+R17
+S1
+R1
+w1645692837
+8test.sv
+R28
+!i122 1
+R29
+R22
+31
+R13
+R23
+R24
+!i113 0
+R25
+R2
